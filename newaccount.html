@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>organish</title>
+    <link rel="icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/owl.theme.green.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script>
+        window.addEventListener("load", function() {
+            var load_screen = document.getElementById("load_screen");
+            document.body.removeChild(load_screen);
+            $("html").css({
+                'overflow': 'auto'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="load_screen">
+        <div class="loading">
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-right padding-10 wow animated fadeInRight delay-1">
+                <a href class="a-login">Login<span class="fa fa-sign-in"></span></a>
+                <div class="for-lang" id="for-lang"><img src="img/ar.png" alt="">AR
+                    <div class="all-language">
+                        <a href="">
+                            <img src="img/ar.png" alt="">AR
+                        </a>
+                        <a href="">
+                            <img src="img/en.png" alt="">EN
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-header-2">
+            <div class="threeboxes-3 text-center-mobile wow animated fadeInLeft no-hover">
+
+                <h1><img src="img/logo.png" alt=""></h1>
+            </div>
+            <div class="threeboxes-6 wow animated fadeInDown delay-05">
+                <div class="box-searching">
+                    <span class="fa fa-search"></span>
+                    <input type="text" class="search-in" placeholder="Search">
+                    <button class="btn-search">search</button>
+                    <select class="input-select">
+                            <option>All departments</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                            <option>Option 4</option>
+                            <option>Option 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="threeboxes-3 text-right fa-header-up wow animated fadeInRight">
+                <button class="fa fa-heart-o">
+                    <span class="count OpenSans-Light">2</span>
+                <span class="OpenSans-Light count-name">
+                        Wishlist
+                </span>
+                </button>
+                <button class="fa fa-shopping-cart">
+                        <span class="count OpenSans-Light">2</span>
+                        <span class="OpenSans-Light count-name">Cart</span>
+                        
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button> -->
+        <button class="navbar-toggler  collapse-mobile custom-toggler order-1 " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon-border">
+                <span class="navbar-toggler-icon-border-1"></span>
+                <span class="navbar-toggler-icon-border-2"></span>
+            </span>
+</button>
+        <div class="collapse navbar-collapse wow animated fadeInLeft delay-1" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                brdands
+              </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                                <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    brdands
+                  </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                                <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        brdands
+                      </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                                <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            brdands
+                          </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                                <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                brdands
+                              </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                                <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    brdands
+                                  </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                                <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="page-organish">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 wow animated fadeInUp">
+                    <div class="sign-in-box">
+                        <h5>SIGN Up</h5>
+                        <br />
+                        <form action="">
+                            <input type="text" class="input-sign" placeholder="Full name" required>
+                            <input type="text" class="input-sign" placeholder="Your email" required>
+                            <input type="text" class="input-sign" placeholder="Enter your phone" required>
+                            <input type="text" class="input-sign" placeholder="Enter your address" required>
+                            <input type="text" class="input-sign" placeholder="Password" required>
+                            <input type="text" class="input-sign" placeholder="Confirm Password" required>
+                            <br />
+                            <br />
+                            <input type="submit" class="submit-sign" value="SIGN UP">
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 wow animated fadeInUp delay-05">
+                    <h5>MY ACCOUNT</h5>
+                    <br />
+                    <h6>
+                        <a href="">Orders</a>
+                    </h6>
+                    <h6>
+                        <a href="">Shipping address</a>
+                    </h6>
+                    <h6>
+                        <a href="">Chart</a>
+                    </h6>
+                    <h6>
+                        <a href="">Wishlist</a>
+                    </h6>
+                </div>
+                <div class="col-lg-3 wow animated fadeInUp delay-1">
+                    <h5>FOLLOW US</h5>
+                    <a href="" class="a-social"><img src="img/facebook.png" alt="facebook" title="facebook"></a>
+                    <a href="" class="a-social"><img src="img/twitter.png" alt="twitter" title="twitter"></a>
+                    <a href="" class="a-social"><img src="img/instagram.png" alt="instagram" title="instagram"></a>
+                    <a href="" class="a-social"><img src="img/youtube.png" alt="youtube" title="youtube"></a>
+
+                    <br />
+                    <br />
+                    <h5>CONTACT US</h5>
+                    <h6>Email : <span>info@organish.com</span></h6>
+                    <h6>Phone : <span>+974 70482111</span></h6>
+                </div>
+                <div class="col-lg-3 wow animated fadeInUp delay-15">
+                    <h5>DOWNLOAD APPS </h5>
+                    <br />
+                    <a href="" class="play-store"><img src="img/a-store.png" alt=""></a>
+                    <br />
+                    <a href="" class="play-store"><img src="img/g-play.png" alt=""></a>
+
+                </div>
+                <div class="col-lg-3 wow animated fadeInUp delay-2">
+                    <img src="img/logo-lite.png" alt="">
+                    <br />
+                    <br />
+                    <h5>PAYMENT METHOD</h5>
+
+                    <a href="" class="a-social"><img src="img/paypal.png" alt="paypal" title="paypal"></a>
+                    <a href="" class="a-social"><img src="img/visa.png" alt="visa" title="visa"></a>
+                    <a href="" class="a-social"><img src="img/master.png" alt="master" title="master"></a>
+                    <a href="" class="a-social"><img src="img/american.png" alt="american" title="american"></a>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="container-fluid">
+        <div class="row row-footer-2 text-center-mobile">
+            <div class="col-lg-12">
+                <span>Copyright © 2020 Organish</span>
+                <br class="br-mobile">
+                <br class="br-mobile">
+                <span class="float-right-pc">Terms and Conditions      Privacy Policy</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+
+    <!-- <script src="js/forjs.js "></script> -->
+    <!-- <script src="js/countup.js "></script> -->
+    <!-- <script src="js/main.js "></script> -->
+    <script src="js/submenu.js "></script>
+    <script src="js/forjs.js "></script>
+    <!-- <script src="js/circ.js "></script> -->
+
+    <script src="js/wow.js "></script>
+
+
+    <!-- parallor -->
+    <!-- <script src="js/jquery.paroller.js "></script> -->
+
+
+    <!-- countjs -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script> -->
+    <!-- <script src="js/jquery.countup.js "></script> -->
+    <!-- <script src="js/countUp.js "></script> -->
+
+
+</body>
+
+</html>
